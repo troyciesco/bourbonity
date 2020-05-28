@@ -17,7 +17,7 @@ const ProductsPage = ({ data }) => (
             data-item-price={product.price}
             data-item-image={product.image.url}
             data-item-name={product.name}
-            data-item-url={`/`}
+            data-item-url={`/products`}
           >
             <h2>{product.name}</h2>
             <h3>{product.price}</h3>
